@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linki do sociali Greekapl</title>
+    <style>
+        body {
+            background-color: lightgray; /* Ustawienie tła strony na szare */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .links-container {
+            display: flex;
+            justify-content: center; /* Wyśrodkowanie elementów poziomo */
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .circle {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 20px;
+            background-size: cover; /* Dopasowanie obrazka do okręgu */
+            background-position: center; /* Wyśrodkowanie obrazka */
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            position: relative;
+        }
+
+        .circle:hover {
+            opacity: 0.7;
+        }
+
+        .circle-text {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            margin: 0;
+            padding: 5px;
+            font-weight: bold;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Linki do sociali Greekapl</h1>
+
+    <div class="links-container">
+        <a href="https://discord.gg/NnSBV2xgCK" class="circle" style="background-image: url('https://images-ext-1.discordapp.net/external/l9x-NMixCzsnjyBLzGfEhID-Ez7T39JHV1s7vGy5fJk/%3Fsize%3D1024/https/cdn.discordapp.com/icons/716957934105657384/2ad19bf646b79681adc343eb89befc31.webp?format=webp');" target="_blank">
+            <p class="circle-text">Discord Greekapl</p>
+        </a>
+
+        <a href="https://www.wattpad.com/user/GreekPL" class="circle" style="background-image: url('https://img.wattpad.com/useravatar/GreekPL.128.610832.jpg');" target="_blank">
+            <p class="circle-text">Książki</p>
+        </a>
+
+        <a href="https://www.youtube.com/@GreekPL" class="circle" style="background-image: url('https://yt3.googleusercontent.com/CSRZX7tHNDeCGokjSQni3nCn1gK_ANJd5D1fvgUfbF4gIGHlHfoqi2P1pGo6W0zKaE7tQSCwrA=s160-c-k-c0x00ffffff-no-rj');" target="_blank">
+            <p class="circle-text">Kanał YouTube</p>
+        </a>
+
+        <a href="https://www.youtube.com/@GreekPL_2D" class="circle" style="background-image: url('https://yt3.googleusercontent.com/RDHmfMGqkeqHPlqL-4Hc-ypxOuLcVAWeDyd45-aNsOAUGPJB4ScO3FnVtrZUk0MXqlCZxQAFYg=s160-c-k-c0x00ffffff-no-rj');" target="_blank">
+            <p class="circle-text">Drugi kanał YouTube</p>
+        </a>
+    </div>
+
+</body>
+</html>
